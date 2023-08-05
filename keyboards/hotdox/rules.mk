@@ -1,11 +1,5 @@
-# MCU name
-MCU = atmega32u4
-
-# Bootloader selection
-BOOTLOADER = atmel-dfu
-
 # Build Options
-#   comment out to disable the options.
+#   change yes to no to disable
 #
 CUSTOM_MATRIX           = yes # Custom matrix file for the ErgoDone
 UNICODE_ENABLE          = yes # Unicode
@@ -23,5 +17,3 @@ RGBLIGHT_ENABLE         = no
 SRC =  matrix.c     \
 	   i2c_master.c \
        left.c
-
-LAYOUTS = ergodox

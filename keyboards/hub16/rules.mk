@@ -1,10 +1,6 @@
-# MCU name
-MCU = atmega32u4
-
-# Bootloader selection
-BOOTLOADER = caterina
-
 # Build Options
+#   change yes to no to disable
+#
 CUSTOM_MATRIX = lite		# Custom scanning of matrix
 BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = yes       # Mouse keys

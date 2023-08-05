@@ -1,11 +1,5 @@
-# MCU name
-MCU = STM32F042
-
-# Bootloader selection
-BOOTLOADER = stm32-dfu
-
 # Build Options
-#   comment out to disable the options.
+#   change yes to no to disable
 #
 BACKLIGHT_ENABLE = no
 BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
